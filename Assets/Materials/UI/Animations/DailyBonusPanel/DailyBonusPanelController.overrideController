@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DailyBonusPanelController
+  m_Controller: {fileID: 9100000, guid: 50bd59dcd8c1cd5499103f21818d422b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: b9439ba49b3cf174c8d01fcb1e6b6274, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 52cc973cd38c02a4ea2d992b9e931c6a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 24073372665fb2149b3c7d60eaff7fed, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9d7d4a2b64c45854bb7d60dda51a52c8, type: 2}
