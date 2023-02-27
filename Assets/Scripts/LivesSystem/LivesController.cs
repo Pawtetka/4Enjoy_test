@@ -21,8 +21,12 @@ public class LivesController : MonoBehaviour
 
     void Start()
     {
+        panelView.OpenLivesPopupButton.onClick.AddListener(() => ShowLivesPopup(true));
+        popupView.ClosePopupButton.onClick.AddListener(() => ShowLivesPopup(false));
         popupView.UseLifeButton.onClick.AddListener(UseLife);
         popupView.RefillLivesButton.onClick.AddListener(RefillLives);
+        
+        UpdateLivesValue(livesService.CurrentLivesCount);
     }
 
     public void ShowLivesPopup(bool isActive)
